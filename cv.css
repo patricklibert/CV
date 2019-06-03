@@ -44,6 +44,12 @@ header {
 
 }
 
+.gridinsideflex {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  
+}
+
 
 .persoonlijk {
     font-family: 'Roboto', sans-serif;
@@ -51,6 +57,7 @@ header {
     font-size: 18px;
     text-align: right;
     width: 300px;
+   
 }
 
 .studies {
@@ -71,7 +78,7 @@ header {
     font-size: 25px;
     justify-content: left;
     color: #FB4485;
-    
+   
 
 }
 
@@ -84,6 +91,7 @@ header {
     font-size: 25px;
     justify-content: left;
     color:#FDA333;
+    
 }
 
 
@@ -94,6 +102,7 @@ header {
     font-size: 12px;
     text-align: right;
     width: 300px;
+    
 }
 
 .studiegegevens {
@@ -102,4 +111,20 @@ header {
     text-align: left;
     width: 900px;
     height: 14px;
+   
+}
+
+
+.flexxendgegevens {
+    grid-row-start: 15;
+    grid-row-end: 18;
+   
+    width: 300px;
+    height: 0px;
+}
+
+.flexendstudiegegevens {
+    width: 900px;
+    
+
 }
