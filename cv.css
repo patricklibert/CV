@@ -106,11 +106,17 @@ header {
 }
 
 .studiegegevens {
+    display: flex;
+    flex-direction: row;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-align: left;
     width: 900px;
     height: 14px;
+   
+    justify-content: space-between;
+    
+    
    
 }
 
@@ -127,4 +133,14 @@ header {
     width: 900px;
     
 
+}
+
+.locatie {
+  
+    text-align: right;
+    
+    color: #AAAAAA;
+    
+    justify-content: flex-end
+   
 }
