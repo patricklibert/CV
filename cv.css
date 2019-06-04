@@ -40,14 +40,16 @@ header {
     
     
     border-color: black;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    align-items: flex-start;
 
 }
 
 .gridinsideflex {
     display: grid;
     grid-template-columns: 30% 70%;
-  
+    align-items: flex-start;
+
 }
 
 
@@ -68,6 +70,9 @@ header {
     justify-content: left;
     color: #6CE0F1;
     
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -98,6 +103,7 @@ header {
 
 
 .gegevens {
+    
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     text-align: right;
